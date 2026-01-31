@@ -13,3 +13,4 @@ student_2 = student("Bob", 16, "Javascript")
 print(student_1.age)
 
 print(student_2.course)
+print("hello")
