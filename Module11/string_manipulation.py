@@ -14,4 +14,3 @@ age = 30
 with open('output.txt', 'w') as file:
     file.write("Name:" + name + "\n")
     file.write("Age:" + str(age) + "\n")
-    
