@@ -1,0 +1,29 @@
+import streamlit as st
+
+if st.button("Click Me"):
+    st.write("You Have Clicked The Button")
+
+
+if st.checkbox("Check me to show some text"):
+    st.write("You have checked the box successfuly ")
+
+user_input = st.text_input("Enter text" , "Simple text")
+st.write("You entered:", user_input)
+
+age = st.number_input("Enter your age", min_value=0, max_value=100)
+st.write("Your age is:",age)
+
+message = st.text_area("Enter a message")
+st.write("Your message:", message)
+
+
+choice = st.radio("Pick one", ["Woman","Man","Asishne"])
+st.write("Your choice is:", choice)
+
+if st.button("Success"):
+    st.success("Operation was succesful")
+
+try:
+    1/0
+except Exception as e:
+    st.exception(e)
