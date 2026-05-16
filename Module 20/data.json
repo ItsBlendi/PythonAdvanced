@@ -1,0 +1,10 @@
+{
+  "name": "John Doe",
+  "age": 23,
+  "address": {
+    "street": "123 main street",
+    "city": "Podujeve",
+    "postal_code": "11000"
+
+  }
+}
